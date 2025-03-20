@@ -1,0 +1,13 @@
+<div class="container mt-5">
+    <h2 class="text-center mb-5 fw-bold">Contactos</h2>
+
+    <div 
+    class="row row-cols-sm-1 row-cols-md-3 row-cols-lg-4"
+    >
+
+    @for(contactData of contacts; track contactData.id){
+        <app-card-contact [contact]="contactData" />
+    }
+
+    </div> 
+</div>

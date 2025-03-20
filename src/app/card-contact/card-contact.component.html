@@ -1,0 +1,20 @@
+<div class="card mb-3">
+    <div class="card-body">
+        <h5>{{contact.name}}</h5>
+        <hr>
+        <ul>
+            <li>📧 {{contact.email}}</li>
+            <li>📱{{contact.phone}}</li>
+            <li>💻 {{contact.website}}</li>
+        </ul>
+        <div class="card-address">
+            <h6>Dirección del contacto</h6>
+            <ul>
+                <li>🏙️ {{contact.address.city}}</li>
+                <li>🛣️ {{contact.address.street}}</li>
+                <li>📫 {{contact.address.zipcode}}</li>
+                <li>🏢 {{contact.address.suite}}</li>
+            </ul>
+        </div>
+    </div>
+</div>

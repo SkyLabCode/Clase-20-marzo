@@ -1,0 +1,9 @@
+li{
+   list-style: none;
+}
+
+.card-address{
+    background-color: #e7e7e7;
+    padding: 10px;
+    border-radius: 5px;
+}
